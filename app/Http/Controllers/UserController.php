@@ -7,8 +7,8 @@ class UserController extends Controller {
 
     public function showSth()
     {
-
-        return View('haha');
+        $sessions =\App\Session::all();
+        return \View::make ('haha')->with('sessions', $sessions);
     }
 
 }
