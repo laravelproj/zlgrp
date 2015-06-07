@@ -1,3 +1,6 @@
 /vendor
+/bootstrap
+/config
+/storage
 /node_modules
 .env
